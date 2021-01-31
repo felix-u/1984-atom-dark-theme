@@ -1,23 +1,36 @@
+// These colors are specific to the theme. Do not use in a package!
 
-// 1984-dark
-// An Atom syntax theme by felix-u
+// dracula colors
+@background: #1c1c1e;
+@foreground: #F8F8F2;
+@selection: #44475A;
+@comment: #6272A4;
+@red: #e03a3e; // 08
+@orange: #f5821f; // 09
+@yellow: #fdb827; // 0A
+@green: #61bb46; // 0B
+@cyan: #13ac9d; // 0C
+@blue: #009ddc; // 0D
+@purple: #963d97; // 0E
+@pink: #FF79C6;
 
-// Greyscale
-@black:           #1c1c1e; // 00
-@very-dark-gray:  #2c2c2e; // 01
-@dark-gray:       #48484a; // 02
-@gray:            #8e8e93; // 03
-@light-gray:      #aeaeb2; // 04
-@very-light-gray: #d1d1d6; // 05
-@almost-white:   #e5e5eA; // 06
-@white:           #fefefe; // 07
+// not dracula colors
+@lace: #f8f8f0;
+@white: #ffffff;
+@black: #000000;
+@blue: @comment;
 
-// Colors
-@red:             #e03a3e; // 08
-@orange:          #f5821f; // 09
-@yellow:          #fdb827; // 0A
-@green:           #61bb46; // 0B
-@cyan:            #13ac9d; // 0C
-@blue:            #009ddc; // 0D
-@purple:          #963d97; // 0E
-@brown:           #a3685a; // 0F
+// default syntax set colors
+@very-dark-gray: @background;
+@dark-gray: hsla(220, 100%, 80%, .08); // Current Line & Selection
+@gray: #666666;
+@light-gray: #999999;
+@very-light-gray: @foreground; // Foreground
+
+// @cyan: #8abeb7;
+// @blue: #81a2be;
+// @purple: #b294bb;
+// @green: #b5bd68;
+// @red: #cc6666;
+// @orange: #de935f;
+// @light-orange: #f0c674;

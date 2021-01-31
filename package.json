@@ -1,14 +1,14 @@
 {
   "name": "1984-dark-theme",
   "theme": "syntax",
-  "version": "0.1",
+  "version": "0.0.0",
   "description": "1984-dark-theme for Atom",
   "keywords": [
     "1984",
     "dark",
     "syntax"
   ],
-  "repository": "https://github.com/felix-u/1984-theme",
+  "repository": "https://github.com/felix-u/1984-atom-dark-theme",
   "license": "MIT",
   "engines": {
     "atom": ">0.49.0"

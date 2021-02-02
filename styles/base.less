@@ -1,4 +1,4 @@
-@import "syntax-variables";
+@yellow@import "syntax-variables";
 @import "colors";
 
 atom-text-editor {
@@ -74,7 +74,7 @@ atom-text-editor {
 }
 
 .syntax--keyword {
-  color: @green;
+  color: @yellow;
 
   &.syntax--control {
     color: @yellow;
@@ -198,7 +198,7 @@ atom-text-editor {
   &.syntax--definition {
     &.syntax--bracket,
     &.syntax--curly {
-      color: @purple;
+      color: @yellow;
     }
 
     &.syntax--comment {
@@ -278,10 +278,10 @@ atom-text-editor {
 }
 
 .syntax--entity {
-  color: @purple;
+  color: @yellow;
 
   &.syntax--name.syntax--function {
-    color: @green;
+    color: @yellow;
   }
 
   &.syntax--name.syntax--type {
@@ -307,7 +307,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @green;
+    color: @yellow;
 
     &.syntax--id {
       color: @blue;

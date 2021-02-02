@@ -59,7 +59,7 @@ atom-text-editor {
   color: @comment;
 
   .syntax--keyword.syntax--control {
-    color: @red;
+    color: @cyab;
   }
 
   .syntax--support.syntax--type {
@@ -68,20 +68,20 @@ atom-text-editor {
   }
 
   .syntax--variable {
-    color: @green;
+    color: @blue;
     font-style: italic;
   }
 }
 
 .syntax--keyword {
-  color: @yellow;
+  color: @green;
 
   &.syntax--control {
-    color: @yellow;
+    color: @green;
   }
 
   &.syntax--operator {
-    color: @yellow;
+    color: @green;
   }
 
   &.syntax--setter {
@@ -94,7 +94,7 @@ atom-text-editor {
 
     .syntax--ruby &,
     &.syntax--ruby {
-      color: @yellow;
+      color: @green;
     }
   }
 
@@ -104,7 +104,7 @@ atom-text-editor {
 }
 
 .syntax--storage {
-  color: @yellow;
+  color: @green;
 
   // &.syntax--type {
   //   color: @cyan;
@@ -116,7 +116,7 @@ atom-text-editor {
   color: @orange;
 
   &.syntax--character.syntax--escape {
-    color: @yellow;
+    color: @green
   }
 
   &.syntax--numeric {
@@ -159,7 +159,7 @@ atom-text-editor {
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
+  background-color: @cyan;
   color: @syntax-background-color;
 }
 
@@ -167,16 +167,16 @@ atom-text-editor {
 .syntax--regexp {
   .syntax--keyword.syntax--operator,
   .syntax--storage.syntax--modifier {
-    color: @red;
+    color: @cyan;
   }
 }
 
 // String
 .syntax--string {
-  color: @yellow;
+  color: @orange;
 
   &.syntax--regexp {
-    color: @red;
+    color: @cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @blue;
@@ -184,12 +184,12 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @cyan;
   }
 }
 
 .syntax--punctuation {
-  color: @yellow;
+  color: @orange;
 
   &.syntax--bracket {
     color: @foreground;
@@ -212,7 +212,7 @@ atom-text-editor {
       color: @blue;
 
       .syntax--ruby & {
-        color: @yellow;
+        color: @green;
       }
     }
 
@@ -234,23 +234,23 @@ atom-text-editor {
 
   &.syntax--separator {
     &.syntax--inheritance {
-      color: @yellow;
+      color: @green;
     }
   }
 
   &.syntax--section.syntax--embedded {
-    color: @yellow;
+    color: @green;
   }
 
 }
 
 .syntax--support {
-  color: @cyan;
+  color: @red;
   font-style: italic;
   width: calc(1px);
 
   &.syntax--class {
-    color: @cyan;
+    color: @red;
   }
 
   &.syntax--constant {
@@ -258,30 +258,30 @@ atom-text-editor {
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @red;
 
     &.syntax--any-method {
-      color: @cyan;
+      color: @red;
     }
 
     .syntax--ruby & {
-      color: @yellow;
+      color: @green;
       font-style: normal;
     }
   }
 
   // MarkupBlockquote
   &.syntax--quote&.syntax--gfm {
-    color: @yellow;
+    color: @green;
     font-style: italic;
   }
 }
 
 .syntax--entity {
-  color: @yellow;
+  color: @green;
 
   &.syntax--name.syntax--function {
-    color: @green;
+    color: @yellow;
   }
 
   &.syntax--name.syntax--type {
@@ -290,12 +290,12 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @cyan;
+    color: @red;
     font-style: italic;
   }
 
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @cyan;
+    color: @red;
   }
 
   &.syntax--name.syntax--section {
@@ -303,11 +303,11 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @yellow;
+    color: @green;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @green;
+    color: @yellow;
 
     &.syntax--id {
       color: @blue;
@@ -317,7 +317,7 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--class {
-    color: @cyan;
+    color: @red;
   }
 
   &.syntax--link {
@@ -333,7 +333,7 @@ atom-text-editor {
   }
 
   &.syntax--delimiter {
-    color: @yellow;
+    color: @green;
 
     &.syntax--comma {
       color: @syntax-text-color;
@@ -360,7 +360,7 @@ atom-text-editor {
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @cyan;
   }
 
   &.syntax--italic {
@@ -373,7 +373,7 @@ atom-text-editor {
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @yellow;
   }
 
   &.syntax--list {
@@ -381,11 +381,11 @@ atom-text-editor {
   }
 
   &.syntax--quote {
-    color: @yellow;
+    color: @orange;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @yellow;
   }
 }
 
@@ -401,7 +401,7 @@ atom-text-editor {
 
     &.syntax--link {
       &.syntax--underline {
-        color: @cyan;
+        color: @red;
       }
     }
 

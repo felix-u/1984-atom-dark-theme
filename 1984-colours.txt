@@ -1,0 +1,32 @@
+original palette, inspired by rainbow Apple logo:
+
+White: #FEFEFE
+Black/background: #1C1C1E
+Dark Grey: #3A3A3C
+Grey: #8E8E93
+Light Grey: #D1D1D6
+Red: #E03A3E
+Green: #61BB46
+Yellow: #FDB827
+Orange: #F5821F
+Aqua: #13AC9D
+Blue: #009DDC
+Purple: #963D97
+Pink: #FF79C6
+
+
+updated palette, blended with gruvbox:
+
+White: #F5EDD8
+Black/background: #222223
+Dark Grey: #454241
+Grey: #908984
+Light Grey: #D3CBBC
+Red: #EE4239
+Green: #8DBB36
+Yellow: #FCBB2B
+Orange: #FA811C
+Aqua: #51B68D
+Blue: #42A1BA
+Purple: #B56299
+Pink: #E980B1

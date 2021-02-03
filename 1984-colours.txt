@@ -17,8 +17,10 @@ Pink: #FF79C6
 
 updated palette, blended with gruvbox:
 
-White: #F5EDD8
+White: #FAF6EB
+Creamy White: #F5EDD8
 Black/background: #222223
+Very Dark Grey: #343232
 Dark Grey: #454241
 Grey: #908984
 Light Grey: #D3CBBC

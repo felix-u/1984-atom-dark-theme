@@ -25,10 +25,18 @@ Dark Grey: #454241
 Grey: #908984
 Light Grey: #D3CBBC
 Red: #EE4239
+Dark Red: #9A423D
 Green: #8DBB36
+Dark Green: #697F3C
 Yellow: #FCBB2B
+Dark Yellow: #A17F36
 Orange: #FA811C
+Dark Orange: #A0622F 
 Aqua: #51B68D
+Dark Aqua: #4B7C67
 Blue: #42A1BA
+Dark Blue: #44727E
 Purple: #B56299
+Dark Purple: #7D526D
 Pink: #E980B1
+Dark Pink: #976179
